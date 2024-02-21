@@ -8,7 +8,7 @@ public class Main {
         int ans3=p.product(1.0,2.0);
         System.out.println(ans1+" "+ans2+" "+ans3);
     }
-    static class Product{
+    public static class Product{
         public int product(int x, int y){
             return x*y;
         }
