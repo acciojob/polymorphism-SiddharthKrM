@@ -1,11 +1,11 @@
 package com.driver;
 
 public class Main {
-    public static void main(String arg[]){
+    public static void main(String[] argd){
         Product p=new Product();
         int ans1=p.product(10,20);
         int ans2=p.product(1,2,3);
-        int ans3=p.product(1.0,2.0);
+        double ans3=p.product(1.0,2.0);
         System.out.println(ans1+" "+ans2+" "+ans3);
     }
     public static class Product{
